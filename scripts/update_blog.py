@@ -2,6 +2,10 @@ import feedparser
 import git
 import os
 
+repo = git.Repo('.')
+repo.git.config('--local', 'user.name', 'parang12')
+repo.git.config('--local', 'user.email', 'gitm955133@gmail.com')
+
 rss_url = 'https://api.velog.io/rss/@parang12'
 
 repo_path = '.'
