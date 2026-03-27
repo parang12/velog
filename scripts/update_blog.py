@@ -2,7 +2,7 @@ import feedparser
 import git
 import os
 
-rss_url = 'https://api.velog.io/rss/@parang12'
+rss_url = 'https://api.velog.io/rss/@parang'
 
 repo_path = '.'
 posts_dir = os.path.join(repo_path, 'velog-posts')
